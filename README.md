@@ -1,8 +1,6 @@
 # Webpacker::Angular
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/webpacker/angular`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Just an extension of rails/webpacker to generate an Angular CLI compatible structure and components generator.
 
 ## Installation
 
@@ -20,9 +18,12 @@ Or install it yourself as:
 
     $ gem install webpacker-angular
 
-## Usage
+## Roadmap
 
-TODO: Write usage instructions here
+- [ ] installation task 
+- [ ] generate components via rails generator wrapping NG CLI 
+- [ ] test production env
+- [ ] add AOT to webpack 
 
 ## Development
 
@@ -32,7 +33,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/webpacker-angular. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/berga/webpacker-angular. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
