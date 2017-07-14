@@ -2,6 +2,9 @@ require "webpacker/angular/version"
 
 module Webpacker
   module Angular
-    # Your code goes here...
+    extend self
   end
 end
+
+
+require_relative "angular/railtie" if defined?(Rails)
